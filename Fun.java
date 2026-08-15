@@ -4,7 +4,7 @@ public class Fun {
     public static void main(String args[]){
         // Calculate percentage of student marks obtained in CBSC Exams and take 5 subjects of marks from user and marks are out of 100.
         Scanner value = new Scanner(System.in); // object for scanner.
-        System.out.println("Enter the subject - 1 marks:");
+        System.out.println("Enter the subject - 1 markskmlkm:");
         double marks1 = value.nextDouble();
         System.out.println("Enter the subject - 2 marks:");
         double marks2 = value.nextDouble();

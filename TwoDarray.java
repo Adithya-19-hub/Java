@@ -9,5 +9,8 @@ public class TwoDarray {
         array[1][1] = 500;
         array[1][2] = 600;
         System.out.println(array[0][0]);
+
+        System.out.println(array[0][1]);
+        System.out.println(array[0][2]);
     }
 }

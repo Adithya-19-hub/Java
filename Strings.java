@@ -1,6 +1,6 @@
 public class Strings {
     public static void main(String[] args) {
-        String a = "Bengalure";
+        String a = "Adithya";
         System.out.println(a);
     }
 }
