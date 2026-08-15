@@ -20,5 +20,8 @@ public class userInput{
         // System.out.println(true);
         int num = first.nextShort();
         System.out.println("Output is:" + num);
+
+        String str = first.nextLine();
+        System.out.println(str);
     }
 }
