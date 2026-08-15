@@ -6,7 +6,7 @@ public class formatString {
         // literal.
 
         char var = 'A'; // 65
-        String name = "Adithya";
+        String name = "Adilksfglkdfmnthya";
 
         // System.out.printf("char is: %c and the name is: %s", var, name); // correct
         // way of using format string.
