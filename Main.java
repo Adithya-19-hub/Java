@@ -25,7 +25,7 @@ public class Main {
             System.out.println("Yes integer is even");
         }
         else {
-            System.out.println("Integer is odd");
+            System.out.println("Integer is");
         }
 
         sc.close(); // Scanner class will get close.
