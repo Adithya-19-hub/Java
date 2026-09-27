@@ -15,7 +15,7 @@ class Company {
 
 class Amazon extends Company {
     Amazon() {
-        super("Microsoft","Bengalure");
+        super("Microsoft","Bengalusrjgnksjfgndre");
     }
 
     @Override
