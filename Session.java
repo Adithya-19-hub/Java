@@ -6,7 +6,7 @@ class Employee {
     Employee(String val) {
         empName = val;
         this("Varun");
-        System.out.println("Default conaeihfkwehkwruekstructor...");
+        System.out.println("Default conaeihfwsfsfkwehkwruekstructor...");
     }
 
     // Employee(String val) {

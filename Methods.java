@@ -5,7 +5,7 @@ public class Methods {
     public void multiplynums(int x, int y) {
         int result;
         if (x < 0 || x == 0 || y < 0 || y == 0) {
-            System.out.println("Dear User, Negatiaejnfkjwenjwkfve numbers or zero number's are not allowed");
+            System.out.println("Dear User, Negative numbers or zero number's are not allowed");
         } else {
             result = x * y;
             System.out.println("Multiplication of two nums is: " + result);
