@@ -13,7 +13,7 @@ public class Main {
         } else if (var1 > var2) {
             System.out.println("Var1 is grsdlwfeqedwddfjnvgjkseater");
         } else {
-            System.out.println("Both variables are equal");
+            System.out.println("Both vadsadariables are equal");
         }
 
         // To check weather the user input is even or odd.
