@@ -28,7 +28,7 @@ public class Fun {
             System.out.println(result / totalMarks * 100);
         }
 
-        System.out.println("Enter your name: ");
+        System.out.println("Enteadswsdwsdr your name: ");
         String s1 = value.nextLine();
         System.out.println("My name is: " + s1);
     }

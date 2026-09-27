@@ -8,7 +8,7 @@ public class Methods {
             System.out.println("Dear User, Negative numbsejnvgkjsnfrers or zero number's are not allowed");
         } else {
             result = x * y;
-            System.out.println("Multiplassassasication of two nums is: " + result);
+            System.out.println("Multipsfsfsfdflassassasication of two nums is: " + result);
         }
     }
 
