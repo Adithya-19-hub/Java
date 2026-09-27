@@ -1,7 +1,7 @@
 class Employee {
     private int empId;
     public String empName;
-    public static String empCompany = "Microsoft";
+    public static String empCompany = "Micqadwdwdweeerosoft";
 
     Employee(String val) {
         empName = val;
