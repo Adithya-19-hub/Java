@@ -1,6 +1,6 @@
 public class Demo {
     public static void main(String[] args) {
-        String a = "Hello";
+        String a = "Hellwsffo";
         String str = new String(a);
         System.out.println(a);
         System.out.println(str);

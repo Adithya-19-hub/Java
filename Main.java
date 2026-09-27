@@ -11,7 +11,7 @@ public class Main {
         } else if (var1 < var2) {
             System.out.println("Var2 is greater");
         } else if (var1 > var2) {
-            System.out.println("Var1 is geajdnfkjwefkjreater");
+            System.out.println("Var1 is greater");
         } else {
             System.out.println("Both variables are equal");
         }

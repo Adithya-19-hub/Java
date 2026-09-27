@@ -4,7 +4,7 @@ public class PracticeSet {
         str.append("Hello world");
 
         // Manipulate the string.
-        str = new StringBuilder("Adithya");
+        str = new StringBuilder("Aditsdlkvnlgkshya");
 
         // Wrong way of manipulating a string.
         // str = "Adithya";
