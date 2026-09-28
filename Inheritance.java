@@ -8,7 +8,7 @@ class Vehicle {
 
     Vehicle(String a) {
         regNo = a;
-        System.out.println("I am basqadqqdwewee class constructor");
+        System.out.println("I am basqadqqdwasfasfewee class constructor");
     }
 
     // Method's
