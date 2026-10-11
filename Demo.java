@@ -1,6 +1,6 @@
 public class Demo {
     public static void main(String[] args) {
-        String a = "Hellwsffo";
+        String a = "Helajfnjensljgnrlgnernglwsffo";
         String str = new String(a);
         System.out.println(a);
         System.out.println(str);
@@ -22,5 +22,7 @@ public class Demo {
         System.out.println(arr[1]);
         System.out.println(arr[0][0]);
         System.out.println(arr[1][2]);
+
+        System.out.println("Bug Fixed");
     }
 }
