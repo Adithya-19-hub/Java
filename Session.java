@@ -44,10 +44,5 @@ public class Session {
         // Employee emp1 = new Employee();
     
         System.out.println(Employee.empCompany);
-
-        // Login feature
-        int a = 2;
-        System.out.println(a);
-        System.out.println("Logic feature is implemented");
     }
 }
