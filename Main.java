@@ -11,7 +11,7 @@ public class Main {
         } else if (var1 < var2) {
             System.out.println("Var2 is greater");
         } else if (var1 > var2) {
-            System.out.println("Var1 is grqwqwqwqwwwqwsdlwfeqedwddfjnvgjkseater");
+            System.out.println("Var1 is grqadwdqwqwqwqwwwqwsdlwfeqedwddfjnvgjkseater");
         } else {
             System.out.println("Both vadsadariables are equal");
         }
