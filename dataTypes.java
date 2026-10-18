@@ -43,5 +43,7 @@ public class dataTypes {
 
         float var9 = 10.1F;
         System.out.println(var9);
+
+        System.out.println("HIIIII");
     }
 }
