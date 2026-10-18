@@ -45,6 +45,6 @@ class Calculator {
         System.out.println(result4);
         add(arr);
         // Bonus result
-        // System.out.println(bonudvsdvsvdfsdfs);
+        // System.out.println(bonus);
     }
 }

@@ -21,7 +21,7 @@ public class Fun {
             System.out.println("Negative marks are not allowed");
         }
         else if(marks1 > 100 || marks2 > 100 || marks3 > 100 || marks4 > 100 || marks5 > 100) {
-            System.out.println("Marks shosegwgwrgwgwrggwrgrgergergergergeguld not contain more thalskdnnfdn 100");
+            System.out.println("Marks not contain more thalskdnnfdn 100");
         }
         else {
             System.out.print("Total percentafoigjidojge is: ");
