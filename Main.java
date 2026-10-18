@@ -7,9 +7,9 @@ public class Main {
 
         // Conditional expression in java.
         if (var1 < 0 || var2 < 0) {
-            System.out.println("Variable's cant be negative");
+            System.out.println("Variawslgknrwklgnreklgnreklgkelble's cant be negative");
         } else if (var1 < var2) {
-            System.out.println("Var2 is greater");
+            System.out.println("Var2 is greaagvnsdlkngklsgnkslgnmklfdngbter");
         } else if (var1 > var2) {
             System.out.println("Var1 is grqadwdqwqwqwqwwwqwsdlwfeqedwddfjnvgjkseater");
         } else {
