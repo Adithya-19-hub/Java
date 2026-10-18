@@ -9,7 +9,7 @@ public class Main {
         if (var1 < 0 || var2 < 0) {
             System.out.println("Heyyyy's cant be negative");
         } else if (var1 < var2) {
-            System.out.println("Var2 is greaagvnsdlkngklsgnkslgnmklfdngbter");
+            System.out.println("Var2 is Greatttttttt");
         } else if (var1 > var2) {
             System.out.println("Var1 is grqadwdqwqwqwqwwwqwsdlwfeqedwddfjnvgjkseater");
         } else {

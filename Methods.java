@@ -88,7 +88,7 @@ public class Methods {
         // allowed");
         // } else {
         // task3 = num5 * num6;
-        // System.out.println("Multiplication of two nums is: " + task3);
+        // System.out.println("Multiplication of two nums is: " + task3);KLKLKLKLKLKLKLKL
         // }
     }
 }
