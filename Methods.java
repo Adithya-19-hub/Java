@@ -23,7 +23,7 @@ public class Methods {
         System.out.println("Dear user, Your entered number is: " + num1);
         System.out.println("Enter Number - 2");
         num2 = obj.nextInt();
-        System.out.println("Dear user, Your easfaefwefwefewfwffentered number is: " + num2);
+        System.out.println("Dear user, Your entered number is: " + num2);
 
         Methods refvar = new Methods();
         refvar.multiplynums(num1, num2);
@@ -89,6 +89,6 @@ public class Methods {
         // } else {
         // task3 = num5 * num6;
         // System.out.println("Multiplication of two nums is: " + task3);
-        // }rshgerhethth
+        // }
     }
 }
