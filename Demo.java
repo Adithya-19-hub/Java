@@ -23,6 +23,6 @@ public class Demo {
         System.out.println(arr[0][0]);
         System.out.println(arr[1][2]);
 
-        System.out.println("Bug Fixkjsedlgjsflkgjfdlkgjndlkfgnklfngdlkngled");
+        System.out.println("Buggy code");
     }
 }
