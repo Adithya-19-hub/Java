@@ -21,7 +21,7 @@ class Amazon extends Company {
     @Override
     // MethodOverring occurs
     public void accessCompanyDetails() {
-        System.out.println("Hey! it is a overridden method");
+        System.out.println("Hey! it is a aefhbwskfwehbkjfoverridden method");
     }
 }
 
