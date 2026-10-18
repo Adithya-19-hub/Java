@@ -10,7 +10,7 @@ class arrays {
 
         System.out.println(arr.length);
 
-        System.out.println("floopy starts...");
+        System.out.println("Forlozldkjnvkjsdnjkdfop starts...");
         for (int a = 0; a < arr.length; a++) {
             // Body of the loop executes
             System.out.println("Element at index " + a + " is" + " " + arr[a]);
