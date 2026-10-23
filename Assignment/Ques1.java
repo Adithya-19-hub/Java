@@ -1,56 +1,75 @@
-package Assignment;
-
-class BankAccount {
-    int currentBalance;
-    int updatedCurentBalance;
-    int userRequestedAmount;
-
-    // Constructor help's to initialize the value for the property.
-    BankAccount(int val) {
-        currentBalance = val;
-    }
-
-    // Method - 1 is to fetch's the current balance
-    public int fetchBalance() {
-        return currentBalance;
-    }
-
-    // Method - 2 is to withdraw amount from currentBalance.
-    public void withdrawBalance(int withdrawAmount) {
-        userRequestedAmount = withdrawAmount;
-        if (currentBalance < userRequestedAmount) {
-            System.out.println("Dear user, your requested withdrawAmount " + userRequestedAmount
-                    + " is more than the current balance");
-        } else if (userRequestedAmount < 300) {
-            System.out.println("Dear user, your requested withdrawAmount must be equal to or more than 300");
-        } else {
-            updatedCurentBalance = currentBalance - userRequestedAmount;
-            System.out.println("Dear user, your amount " + userRequestedAmount + " has been sucessufully withdrawn");
-            System.out.println("Final current Balance: " + (updatedCurentBalance));
-        }
-    }
-
-    // Method - 3 is to deposite the balance
-    public void depositeBalance(int addAmount) {
-        if (addAmount == 0 || addAmount < 0) {
-            System.out.println("Dear user, your requested deposite amount is lesser than the 0 or equal to the zero");
-        } else {
-            System.out.println(addAmount + " adding to the current balance");
-            if (currentBalance < userRequestedAmount || userRequestedAmount < 300) {
-                System.out.println("Final amount after adding: " + (addAmount + currentBalance));
-            } else {
-                System.out.println("Final amount after adding: " + (addAmount + updatedCurentBalance));
-            }
-        }
+// Custom exception in java
+class LibraryException extends RuntimeException {
+    public LibraryException(String mes) {
+        super(mes);
     }
 }
 
+// Base class
+class LibraryItem {
+    private String itemId;
+    protected String title;
+    public int totalItems;
+
+    LibraryItem(String titleName) {
+        title = titleName;
+        totalItems += 1;
+    }
+
+    public void validateId(String id) throws LibraryException {
+        itemId = id;
+        if (id.startsWith("LIB-")) {}
+        else {
+            throw new LibraryException("Dear User, library item must and should stats with the prefix LIB-");
+        }
+    }
+
+    public void displayInfo() {
+        System.out.println("Title is: " + title + " itemId is: " + itemId);
+    }
+}
+
+
+// Sub-class
+class Book extends LibraryItem {
+    private int pageCount;
+
+    Book() {
+        super("Zeology");
+    }
+
+    public void setPageCount(int id) throws LibraryException {
+        if(id < 0 || id == 0) {
+            throw new LibraryException("Dear User, page count should not be zero or equals to zero");
+        }
+        else {
+            pageCount = id;
+        }
+    }
+
+    @Override
+    public void displayInfo() {
+        super.displayInfo(); // calls the parent version of the displayInfo()
+        System.out.println("Page count: " + pageCount);
+    }
+}
+
+
 public class Ques1 {
     public static void main(String[] args) {
-        // Instance of class
-        BankAccount sbi = new BankAccount(10000);
-        System.out.println("Current Balance is " + sbi.fetchBalance());
-        sbi.withdrawBalance(1000);
-        sbi.depositeBalance(10000);
+        Book novel = new Book();
+        
+        try {
+            novel.validateId("LIB-Book1");
+            novel.setPageCount(0);
+        }
+        catch(LibraryException exe) {
+            System.out.println(exe.getMessage());
+        }
+
+        novel.displayInfo();
+
+        System.out.println("Code completed");
+        System.out.println("ThankYou");
     }
 }
